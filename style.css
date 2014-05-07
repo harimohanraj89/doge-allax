@@ -1,0 +1,54 @@
+body {
+  background: #222;
+  color: #fff;
+  background-image: url('img.jpg');
+  background-size: 120%;
+  background-position: -80px -50px;
+}
+
+div#parallax {
+  position: fixed;
+  bottom: 50%;
+  left: 50%;
+}
+
+div#much-events {
+  position: fixed;
+  bottom: 20%;
+  left: 30%;
+}
+
+div#many-js {
+  position: fixed;
+  bottom: 80%;
+  left: 20%;
+}
+
+div#wow {
+  position: fixed;
+  bottom: 70%;
+  left: 60%;
+}
+
+h1 {
+  margin: 0;
+  padding:0;
+  text-align: center;
+  font-weight:100;
+}
+
+div#parallax h1 {
+  font-size: 120px;
+}
+
+div#much-events h1 {
+  font-size: 80px;
+}
+
+div#many-js h1 {
+  font-size: 40px;
+}
+
+div#wow h1 {
+  font-size: 20px;
+}
