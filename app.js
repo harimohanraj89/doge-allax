@@ -35,7 +35,7 @@ function backgroundMove(e) {
   pointerDeltaY = e.pageY - window.innerHeight/2;
 
   imgDeltaX = -1 * pointerDeltaX * sensitivity / (window.innerWidth/2);
-  imgDeltaY = -1 * pointerDeltaY * sensitivity / (window.innerHeight/2);
+  imgDeltaY = pointerDeltaY * sensitivity / (window.innerHeight/2);
 
   imgBgPosX = -50 + imgDeltaX;
   imgBgPosY = -50 + imgDeltaY;
